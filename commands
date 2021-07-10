@@ -1,0 +1,17 @@
+  git init  
+  git clone https://github.com/jyosnavelpula/payment.git
+  ls -a
+  cd payment
+  git status
+  ls
+  cp README.md README2.md 
+  ls
+  git add *
+  ls -a
+  git commit -m "I am Testing"
+  git status
+  git branch PaymentModule
+  git status
+  git checkout PaymentModule
+  git push
+  git push --set-upstream origin PaymentModule
